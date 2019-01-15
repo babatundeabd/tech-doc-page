@@ -1,19 +1,23 @@
 <head>
     <title>HTML Documentation</title>
-    <style rel="stylesheet" type="text/css" href="file.css"></style>
+    <link rel="stylesheet" type="text/css" href="file.css"></link>
 </head>
 <body>
-    <nav id="navbar">
-        <header>HTML Documentation</header>
-        <a href="#Introduction" class="nav-link">Introduction</a>
-        <a href="#So_what_is_HTML?" class="nav-link">So what is HTML?</a>
-        <a href="#Anatomy_of_an_HTML_element" class="nav-link">Anatomy of an HTML element</a>
-        <a href="#Anatomy_of_an_HTML_document" class="nav-link">Anatomy of an HTML document</a>
-        <a href="#Conclusion" class="nav-link">Conclusion</a>
-        <a href="#Reference" class="nav-link">Reference</a>
+    <meta name="viewport" width="device-width" />
+    <article>
+    <nav id="navbar" class="nav">
+        <ul>
+        <header id="nav-header">HTML Documentation</header>
+        <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+        <li><a href="#So_what_is_HTML?" class="nav-link">So what is HTML?</a></li>
+        <li><a href="#Anatomy_of_an_HTML_element" class="nav-link">Anatomy of an HTML element</a></li>
+        <li><a href="#Anatomy_of_an_HTML_document" class="nav-link">Anatomy of an HTML document</a></li>
+        <li><a href="#Conclusion" class="nav-link">Conclusion</a></li>
+        <li><a href="#Reference" class="nav-link">Reference</a></li>
+        </ul>
 
     </nav>
-    <main id="main-doc">
+    <main id="main-doc" class="main">
         <section class="main-section" id="Introduction">
             <header>Introduction</header>
             <p>HTML (Hypertext Markup Language) is the code that is used to structure a web page and its content. 
@@ -26,11 +30,11 @@
                 HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way. 
                 The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on. 
                 For example, take the following line of content:</p>
-            <p><ol>
+            <p><ol class="html">
                 <li>My cat is very grumpy</li>
             </ol></p>
             <p>If we wanted the line to stand by itself, we could specify that it is a paragraph by enclosing it in paragraph tags:</p>
-            <p><ol>
+            <p><ol class="html">
                 <li><span><</span> p <span>> </span>My cat is very grumpy <span><</span> /p <span>></span></li>
             </ol></p>
         </section>
@@ -71,12 +75,12 @@
         <section class="main-section" id="Reference">
                 <header>Reference</header>
                 <p><ul>
-                    <li>All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN</a></li>
+                    <li>All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN.</a></li>
                 </ul></p>
             </section>
 
     </main>
-
+</article>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
